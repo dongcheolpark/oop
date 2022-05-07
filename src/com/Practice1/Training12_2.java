@@ -6,12 +6,12 @@ public class Training12_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("연산>>");
-        int a,b;
+        float a,b;
         char op;
-        a = scanner.nextInt();
+        a = scanner.nextFloat();
         op = scanner.next().charAt(0);
-        b = scanner.nextInt();
-        int res = 0;
+        b = scanner.nextFloat();
+        float res = 0;
         switch(op) {
             case '+':
                 res = a+b;
@@ -26,6 +26,6 @@ public class Training12_2 {
                 }
                 res = a/b;
         }
-        System.out.println(Integer.toString(a) + op + Integer.toString(b) + "의 계산결과는 " + res);
+        System.out.println(Float.toString(a) + op + Float.toString(b) + "의 계산결과는 " + res);
     }
 }
