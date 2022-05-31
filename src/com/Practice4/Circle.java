@@ -8,7 +8,7 @@ public class Circle implements Shape{
     }
     @Override
     public void draw() {
-        System.out.printf("반지름이 %d인 원입니다.",radius);
+        System.out.printf("반지름이 %d인 원입니다.\n",radius);
     }
 
     @Override

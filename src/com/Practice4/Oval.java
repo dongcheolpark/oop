@@ -15,7 +15,7 @@ public class Oval implements Shape {
     }
     @Override
     public void draw() {
-        System.out.println("%dX%d에 내접하는 타원입니다.");
+        System.out.printf("%dX%d에 내접하는 타원입니다.\n",shortRadius,longRadius);
     }
 
     @Override

@@ -21,13 +21,11 @@ public class PositivePoint extends Point {
 
     @Override
     public String toString() {
-        StringBuffer stringBuffer = new StringBuffer();
-        stringBuffer.append("(");
-        stringBuffer.append(getX());
-        stringBuffer.append(",");
-        stringBuffer.append(getY());
-        stringBuffer.append(")");
-        stringBuffer.append("의 점");
-        return stringBuffer.toString();
+        return "(" +
+                getX() +
+                "," +
+                getY() +
+                ")" +
+                "의 점";
     }
 }

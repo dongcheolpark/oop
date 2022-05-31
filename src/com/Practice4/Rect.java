@@ -9,7 +9,7 @@ public class Rect implements Shape{
     }
     @Override
     public void draw() {
-        System.out.println("%dX%d크기의 사각형 입니다.");
+        System.out.printf("%dX%d크기의 사각형 입니다.\n",width,height);
     }
 
     @Override
